@@ -1,0 +1,25 @@
+body {
+  font-family: "Zen Maru Gothic", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
+.chirp {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid fuchsia;
+  border-radius: 5px;
+  width: 60vw;
+}
+
+#smiley {
+    filter: drop-shadow(30px 10px 4px #4444dd);
+    height: 100px;
+}
